@@ -1,0 +1,61 @@
+{
+   "TagSet": [
+     {
+       "Key": "Name",
+       "Value": ""
+      },
+     {
+       "Key": "Application ID",
+       "Value": ""
+     },
+     {
+       "Key": "Application Role",
+       "Value": ""
+     },
+     {
+       "Key": "Environment",
+       "Value": ""
+     },
+     {
+       "Key": "Version",
+       "Value": ""
+     },
+     {
+       "Key": "SID",
+       "Value": ""
+     },
+     {
+       "Key": "Date/Time",
+       "Value": ""
+     },
+     {
+       "Key": "Snapshot",
+       "Value": ""
+     },
+     {
+       "Key": "Owner",
+       "Value": ""
+     },
+     {
+       "Key": "Cost Center",
+       "Value": ""
+     },
+     {
+       "Key": "Customer",
+       "Value": ""
+     },
+     {
+       "Key": "Project",
+       "Value": ""
+     },
+     {
+       "Key": "Confidentiality",
+       "Value": ""
+     },
+     {
+       "Key": "Compliance",
+       "Value": ""
+     }
+   ]
+}
+ 

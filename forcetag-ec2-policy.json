@@ -1,0 +1,38 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "MandatoryTagsEC2Name",
+            "Effect": "Deny",
+            "Action": "ec2:RunInstances",
+            "Resource": "arn:aws:ec2:*:*:instance/*",
+            "Condition": {
+                "Null": {
+                    "aws:RequestTag/Name": "true"
+                }
+            }
+        },
+        {
+            "Sid": "MandatoryTagsEC2Owner",
+            "Effect": "Deny",
+            "Action": "ec2:RunInstances",
+            "Resource": "arn:aws:ec2:*:*:instance/*",
+            "Condition": {
+                "Null": {
+                    "aws:RequestTag/Owner": "true"
+                }
+            }
+        },
+        {
+            "Sid": "MandatoryTagsEC2Project",
+            "Effect": "Deny",
+            "Action": "ec2:RunInstances",
+            "Resource": "arn:aws:ec2:*:*:instance/*",
+            "Condition": {
+                "Null": {
+                    "aws:RequestTag/Project": "true"
+                }
+            }
+        }
+    ]
+}
