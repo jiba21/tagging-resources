@@ -33,11 +33,11 @@ Esta política fuerza a los usuarios a añadir 3 Tags (Owner, Project, Name) en 
 ### Descripción TAGS ###
 
 * Technical Tags            Description
- * Name                     Identificar el recurso.
- * Technology Name          Que tecnologia se usa (Sistema operativo, bbdd ...)
- * Application Role         Describir la función de la instancia: (ej. APP, SQL, FTP, WEB)
- * Environment              [DEV, TEST, PRO, PRE]
- * Creator                  Creador del Recurso
+  * Name                     Identificar el recurso.
+  * Technology Name          Que tecnologia se usa (Sistema operativo, bbdd ...)
+  * Application Role         Describir la función de la instancia: (ej. APP, SQL, FTP, WEB)
+  * Environment              [DEV, TEST, PRO, PRE]
+  * Creator                  Creador del Recurso
 
 * Tags for Automation       Description
   * Backup                  [Lambda, N2W, S3]  - que sistema se usa para hacer el backup del recurso
